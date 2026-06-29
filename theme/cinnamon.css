@@ -6,14 +6,6 @@ https://github.com/brendanmurty/linux-cinnamon-darker-teal
 
 ***/
 
-/* Colours */
-
-:root {
-  --colour-panel-bg: rgba(29, 29, 33, 0.99);
-}
-
-/* Styling */
-
 stage {
   color: #e1e1e1; }
 
@@ -433,7 +425,7 @@ StScrollBar {
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: var(--colour-panel-bg);
+  background-color: rgba(0, 0, 0, 1);
   font-size: 1em;
   padding: 0px; }
 
