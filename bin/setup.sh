@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
 #
 #
-# Darker Teal theme for Cinnamon setup
+# Darker Teal theme for Cinnamon - Initial setup
 #
 #
 
+DIR="$(cd "$(dirname "$0")" && pwd)"
 REPO="$(cd "$(dirname "$0")/.." && pwd)"
 
 THEME_CUSTOM="$REPO/theme"
@@ -28,13 +29,6 @@ else
 	sudo chown -R "$(id -u):$(id -g)" "$THEME_TARGET"
 fi
 
-echo "Updating system config to use the custom theme"
+# Run the apply script
 
-gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y-Dark-Teal'
-gsettings set org.cinnamon.theme name 'Mint-Y-Dark-Teal'
-
-echo "Restarting Cinnamon to apply the custom theme"
-
-cinnamon --replace >/dev/null 2>&1 &
-
-echo "Done"
+"$DIR/apply.sh"
