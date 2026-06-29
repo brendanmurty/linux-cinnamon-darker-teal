@@ -1,0 +1,15 @@
+{
+	"languages": {
+		"CSS": {
+			"format_on_save": "off",
+			"auto_indent_on_paste": false,
+			"auto_indent": "none",
+			"tab_size": 2,
+			"ensure_final_newline_on_save": false,
+			"language_servers": [
+				"!vscode-css",
+				"!tailwind-css"
+			]
+		},
+	},
+}
