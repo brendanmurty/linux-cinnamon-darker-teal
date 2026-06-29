@@ -1,8 +1,10 @@
 /***
 
 Darker Teal theme for Cinnamon in Linux Mint by Brendan Murty.
-
-https://github.com/brendanmurty/linux-cinnamon-darker-teal
+  - More info at https://github.com/brendanmurty/linux-cinnamon-darker-teal
+  - Assumes the Panel is filling the whole width of the screen
+  - Assumes the Panel is aligned to the bottom of the screen
+  - Assumes the default 'Grouped Window List' Applet is used in the Panel
 
 ***/
 
